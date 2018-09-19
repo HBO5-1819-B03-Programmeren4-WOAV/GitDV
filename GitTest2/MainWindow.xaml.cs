@@ -24,5 +24,10 @@ namespace GitTest2
         {
             InitializeComponent();
         }
+
+        private void btn1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Test");
+        }
     }
 }
